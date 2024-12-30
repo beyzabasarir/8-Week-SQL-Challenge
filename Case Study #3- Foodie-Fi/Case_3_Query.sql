@@ -272,7 +272,7 @@ ORDER BY rp.customer_id, rp.payment_order;
 
 
 SELECT * FROM payments
-LIMIT 100;
+LIMIT 10;
 
 -- D. Outside The Box Questions
 -- 1. How would you calculate the rate of growth for Foodie-Fi?
