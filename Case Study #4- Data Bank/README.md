@@ -90,7 +90,7 @@ FROM customer_nodes;
 
 ---
 
-### 2.	 What is the number of nodes per region?
+### 2. What is the number of nodes per region?
 
 ```sql
 SELECT cn.region_id, region_name,
@@ -113,7 +113,7 @@ The data reveals that Australia has the highest number of nodes, followed by Ame
 
 ---
 
-#### 3.	 How many customers are allocated to each region?
+#### 3. How many customers are allocated to each region?
 
 ```sql
 SELECT region_name,
@@ -136,7 +136,7 @@ Australia has the highest number of customers, followed closely by America and A
 
 ---
 
-#### 4.	 How many days on average are customers reallocated to a different node?
+#### 4. How many days on average are customers reallocated to a different node?
 
 _Note: Records with the outlier date of 9999-12-31 were excluded from the calculation to ensure the accuracy of the results._
 
@@ -192,7 +192,7 @@ The median reallocation duration is consistent at 15 days across all regions. Th
 
 ### B-Customer Transactions
 
-#### 1.  What is the unique count and total amount for each transaction type?
+#### 1. What is the unique count and total amount for each transaction type?
 
 ```sql
 SELECT txn_type, 
