@@ -174,7 +174,7 @@ LIMIT 1;
 |--------------|----------------|
 | ramen        | 8              |
 
-- 'Ramen' emerged as the most frequently purchased item with a total of 8 purchases.
+'Ramen' emerged as the most frequently purchased item with a total of 8 purchases.
 
 ---
 
@@ -261,7 +261,7 @@ WHERE
 | B           | sushi        | 2021-01-09 | 2021-01-11 |
 | A           | curry        | 2021-01-07 | 2021-01-07 |
 
-- Customer A ordered 'Curry' on the same day they joined, while Customer B ordered 'Sushi' two days after joining.
+Customer A ordered 'Curry' on the same day they joined, while Customer B ordered 'Sushi' two days after joining.
 
 ---
 
@@ -363,7 +363,7 @@ ORDER BY 2 DESC;
 | A           | 860          |
 | C           | 360          |
 
-- Customer B earned the highest points (940), followed by Customer A (860) and Customer C (360).
+Customer B earned the highest points (940), followed by Customer A (860) and Customer C (360).
 
 ---
 
@@ -532,3 +532,5 @@ FROM
 | C           | 2021-01-01 | ramen        | 12    | N                 | NULL     |
 | C           | 2021-01-01 | ramen        | 12    | N                 | NULL     |
 | C           | 2021-01-07 | ramen        | 12    | N                 | NULL     |
+
+---
