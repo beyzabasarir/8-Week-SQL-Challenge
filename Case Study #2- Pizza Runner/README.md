@@ -32,8 +32,8 @@ This table includes information about delivery runners and their registration da
 
 | Column Name      | Description                                  |
 |------------------|----------------------------------------------|
-| runner_id        | Unique identifier for each runner            |
-| registration_date| Date the runner was registered               |
+| `runner_id`        | Unique identifier for each runner            |
+| `registration_date`| Date the runner was registered               |
 
 </details>
 
@@ -44,12 +44,12 @@ Captures individual pizza orders, including any customizations such as ingredien
 
 | Column Name      | Description                                  |
 |------------------|----------------------------------------------|
-| order_id         | Unique identifier for each order             |
-| customer_id      | Identifier for the customer placing the order|
-| pizza_id         | Type of pizza ordered                        |
-| exclusions       | Ingredients to exclude                       |
-| extras           | Additional ingredients requested             |
-| order_time       | Timestamp of the order placement             |
+| `order_id`         | Unique identifier for each order             |
+| `customer_id`      | Identifier for the customer placing the order|
+| `pizza_id`         | Type of pizza ordered                        |
+| `exclusions`       | Ingredients to exclude                       |
+| `extras`           | Additional ingredients requested             |
+| `order_time`       | Timestamp of the order placement             |
 
 </details>
 <details>
@@ -59,12 +59,12 @@ Tracks the assignment and delivery performance of runners, including timestamps 
 
 | Column Name      | Description                                  |
 |------------------|----------------------------------------------|
-| order_id         | Unique identifier for the customer order     |
-| runner_id        | Assigned runner for the order                |
-| pickup_time      | Timestamp when the order was picked up       |
-| distance         | Distance covered to complete the delivery    |
-| duration         | Time taken to deliver the order              |
-| cancellation     | Reason for cancellation, if applicable       |
+| `order_id`         | Unique identifier for the customer order     |
+| `runner_id`        | Assigned runner for the order                |
+| `pickup_time`      | Timestamp when the order was picked up       |
+| `distance`         | Distance covered to complete the delivery    |
+| `duration`         | Time taken to deliver the order              |
+| `cancellation`     | Reason for cancellation, if applicable       |
 
 </details>
 <details>
@@ -74,8 +74,8 @@ Defines the current pizza offerings. At present, there are two options available
 
 | Column Name      | Description                                  |
 |------------------|----------------------------------------------|
-| pizza_id         | Unique identifier for each pizza type        |
-| pizza_name       | Name of the pizza                            |
+| `pizza_id`         | Unique identifier for each pizza type        |
+| `pizza_name`       | Name of the pizza                            |
 
 </details>
 
@@ -86,8 +86,8 @@ Details the standard set of toppings for each pizza type, linking the pizza_id w
 
 | Column Name      | Description                                  |
 |------------------|----------------------------------------------|
-| pizza_id         | Pizza type identifier                        |
-| topping_id       | Identifier for the topping                   |
+| `pizza_id`         | Pizza type identifier                        |
+| `topping_id`       | Identifier for the topping                   |
 
 </details>
 
@@ -98,8 +98,8 @@ Provides a comprehensive list of all available pizza toppings and their unique i
 
 | Column Name      | Description                                  |
 |------------------|----------------------------------------------|
-| topping_id       | Unique identifier for toppings               |
-| topping_name     | Name of the topping                          |
+| `topping_id`       | Unique identifier for toppings               |
+| `topping_name`     | Name of the topping                          |
 
 </details>
 
