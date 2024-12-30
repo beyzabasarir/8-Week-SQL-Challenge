@@ -31,10 +31,10 @@ With a focus on expanding its customer base and enhancing data utilization, Data
 
 The Regions table represents the global distribution of nodes, similar to branches in traditional banking. Each node is associated with a specific region.
 
-| Column Name | Description                              |
-|-------------|------------------------------------------|
-| region_id   | Unique identifier for each region.       |
-| region_name | Name of the region.                      |
+| Column Name | Description                                |
+|-------------|--------------------------------------------|
+| `region_id`   | Unique identifier for each region.       |
+| `region_name` | Name of the region.                      |
 
 </details>
 
@@ -43,13 +43,13 @@ The Regions table represents the global distribution of nodes, similar to branch
 
 Customers' data and cash are distributed across different nodes, which are mapped to their respective regions.  
 
-| Column Name  | Description                                                  |
-|---------------|--------------------------------------------------------------|
-| customer_id   | Unique identifier for each customer.                        |
-| region_id     | Identifier linking the customer to their region.             |
-| node_id       | Identifier for the node where the customer's data resides.  |
-| start_date    | The start date of the customer's data allocation on the node.|
-| end_date      | The end date of the customer's data allocation on the node.  |
+| Column Name  | Description                                                  |  
+|---------------|----------------------------------------------------------------|
+| `customer_id`   | Unique identifier for each customer.                         |
+| `region_id`     | Identifier linking the customer to their region.             |
+| `node_id`       | Identifier for the node where the customer's data resides.   |
+| `start_date`    | The start date of the customer's data allocation on the node.|
+| `end_date`      | The end date of the customer's data allocation on the node.  |
 
 </details>
 
@@ -58,12 +58,12 @@ Customers' data and cash are distributed across different nodes, which are mappe
 
 This table logs customer transactions, including deposits, withdrawals, and purchases made using Data Bank debit cards.
 
-| Column Name  | Description                                     |
-|---------------|-------------------------------------------------|
-| customer_id   | Unique identifier for each customer.           |
-| txn_date      | The date of the transaction.                    |
-| txn_type      | The type of transaction (e.g., deposit, withdrawal). |
-| txn_amount    | The amount involved in the transaction.         |
+| Column Name     | Description                                          |
+|-----------------|------------------------------------------------------| 
+| `customer_id`   | Unique identifier for each customer.                 |
+| `txn_date`      | The date of the transaction.                         |
+| `txn_type`      | The type of transaction (e.g., deposit, withdrawal). |
+| `txn_amount`    | The amount involved in the transaction.              |
 
 </details>
 
