@@ -3,15 +3,15 @@
 <img src="https://8weeksqlchallenge.com/images/case-study-designs/2.png" alt="Image" width="450" height="470">
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Data Overview](#data-overview)
-3. [Data Cleaning](#data-cleaning)
-4. [Case Study Questions and Solutions](#case-study-questions-and-solutions)
+- [Introduction](#introduction)
+- [Data Overview](#data-overview)
+- [Data Cleaning](#data-cleaning)
+- [Case Study Questions and Solutions](#case-study-questions-and-solutions)
     - [A-Pizza Metrics](#a-pizza-metrics)
     - [B-Runner and Customer Experience](#b-runner-and-customer-experience)
     - [C-Ingredient Optimisation](#c-ingredient-optimisation)
     - [D-Pricing and Ratings](#d-pricing-and-ratings)
-6. [Bonus Questions](#bonus-questions)
+- [Bonus Questions](#bonus-questions)
 
 For more details about the original challenge, please refer to the [8 Week SQL Challenge website](https://8weeksqlchallenge.com/case-study-2/).
 
