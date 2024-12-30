@@ -30,9 +30,9 @@ This case study includes three main datasets:
 
 | Column Name  | Description |
 |--------------|-------------|
-| customer_id  | Identifies the customer who made the purchase |
-| order_date   | The date the order was placed |
-| product_id   | A reference to the ordered product from the menu |
+| `customer_id`  | Identifies the customer who made the purchase |
+| `order_date`  | The date the order was placed |
+| `product_id`   | A reference to the ordered product from the menu |
 
 </details>
 
@@ -41,9 +41,9 @@ This case study includes three main datasets:
 
 | Column Name  | Description |
 |--------------|-------------|
-| product_id   | A unique identifier for each product on the menu |
-| product_name | The name of the product (menu item) |
-| price        | The price of the product |
+| `product_id`   | A unique identifier for each product on the menu |
+| `product_name` | The name of the product (menu item) |
+| `price`        | The price of the product |
 
 </details>
 
@@ -52,8 +52,8 @@ This case study includes three main datasets:
 
 | Column Name  | Description |
 |--------------|-------------|
-| customer_id  | Identifies the customer who joined the loyalty program |
-| join_date    | The date the customer joined the loyalty program |
+| `customer_id`  | Identifies the customer who joined the loyalty program |
+| `join_date`    | The date the customer joined the loyalty program |
 
 </details>
 
