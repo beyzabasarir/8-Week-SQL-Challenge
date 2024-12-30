@@ -347,7 +347,7 @@ Out of all customers, 258 upgraded to the "pro annual" plan, taking an average o
 
 ---
 
-#### 10.	 Can you further breakdown this average value into 30 day periods (i.e. 0-30 days, 31-60 days etc)
+#### 10. Can you further breakdown this average value into 30 day periods (i.e. 0-30 days, 31-60 days etc)
 
 ```sql
 WITH customer_plans AS (
@@ -396,7 +396,7 @@ According to the data, the most significant number of customers transitioned to 
 
 ---
 
-#### 10.	 Can you further breakdown this average value into 30 day periods (i.e. 0-30 days, 31-60 days etc)
+#### 11. How many customers downgraded from a pro monthly to a basic monthly plan in 2020?
 
 ```sql
 WITH next_plans AS (
