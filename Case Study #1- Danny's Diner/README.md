@@ -2,15 +2,22 @@
 
 <img src="https://user-images.githubusercontent.com/81607668/127727503-9d9e7a25-93cb-4f95-8bd0-20b87cb4b459.png" alt="Image" width="450" height="470">
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Problem Statement](#problem-statement)
+- [Data Overview](#data-overview)
+- [Case Study Questions and Solutions](#case-study-questions-and-solutions)
+- [Bonus Questions](#bonus-questions)
 
+For complete details regarding the challenge, you can visit [here](https://8weeksqlchallenge.com/case-study-1/).
+
+---
 ## Introduction
 Danny’s Diner, a small Japanese restaurant, opened in early 2021, offering a simple menu of sushi, curry, and ramen. To support its growth, the diner has collected data over several months and now seeks to leverage this information for business improvement.
 
 ---
 ## Problem Statement
 This analysis is designed to provide insights into customer behavior, including their visit frequency, spending trends, and favorite menu items. By understanding these patterns, we can make informed decisions to improve the customer experience and refine our loyalty program.
-
-For complete details regarding the challenge, you can visit [here](https://8weeksqlchallenge.com/case-study-1/).
 
 ---
 
@@ -55,7 +62,7 @@ The relationships between these tables are shown in the following ERD diagram:
 ![alt text](https://github.com/beyzabasarir/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231-%20Danny's%20Diner/ERD.png)
 
 ---
-## Case Study Questions & Solutions
+## Case Study Questions and Solutions
 
 ### 1. What is the total amount each customer spent at the restaurant?
 
