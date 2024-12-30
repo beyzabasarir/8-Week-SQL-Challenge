@@ -31,7 +31,7 @@ This case study emphasizes two core tables: plans and subscriptions. Below is a 
 <details>
   <summary>Table 1: Plans</summary>
 
-| plan_id | plan_name      | price |
+| `plan_id` | `plan_name`      | `price` |
 |---------|----------------|-------|
 | 0       | trial          | 0     |
 | 1       | basic monthly  | 9.90  |
@@ -51,7 +51,7 @@ Plan Details:
 <details>
   <summary> Table 2: Subscriptions</summary>
 
-| customer_id | plan_id | start_date |
+| `customer_id` | `plan_id` | `start_date` |
 |-------------|---------|------------|
 | 1           | 0       | 2020-08-01 |
 | 1           | 1       | 2020-08-08 |
