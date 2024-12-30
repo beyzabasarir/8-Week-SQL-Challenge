@@ -145,7 +145,7 @@ GROUP BY
 	SELECT calendar_year,
 	       month_number,
 		   ROUND((Retail*100.0/total_sale),2) AS retail_percentage,
-		   ROUND((Shopify*100.0/total_sale),2) AS shpoify_percentage
+		   ROUND((Shopify*100.0/total_sale),2) AS shopify_percentage
 	FROM sales_totals
 	ORDER BY 1,2;
 	
