@@ -153,11 +153,11 @@ GROUP BY 1,2;
 
 | month_number | month_name | unique_visits |
 |--------------|------------|---------------|
-| 1            | "January"  | 876           |
-| 2            | "February" | 1488          |
-| 3            | "March"    | 916           |
-| 4            | "April"    | 248           |
-| 5            | "May"      | 36            | 
+| 1            | January    | 876           |
+| 2            | February   | 1488          |
+| 3            | March      | 916           |
+| 4            | April      | 248           |
+| 5            | May        | 36            | 
 
 The data shows that February saw the highest unique user visits (1,488), while May had significantly fewer (36).
 
@@ -174,11 +174,11 @@ ORDER BY 2 DESC;
 
 | event_name      | event_count |
 |-----------------|-------------|
-| "Page View"     | 20928       |
-| "Add to Cart"   | 8451        |
-| "Purchase"      | 1777        |
-| "Ad Impression" | 876         |
-| "Ad Click"      | 702         |
+| Page View       | 20928       |
+| Add to Cart     | 8451        |
+| Purchase        | 1777        |
+| Ad Impression   | 876         |
+| Ad Click        | 702         |
 
 The most frequent event is "Page View" with over 20,000 occurrences, followed by "Add to Cart" at 8,451. "Purchase" events are significantly fewer (1,777), suggesting a drop-off in user engagement from browsing to buying. Ad-related events ("Ad Impression" and "Ad Click") are comparatively low.
 
@@ -245,9 +245,9 @@ LIMIT 3;
 
 | page_name      | total_views |
 |----------------|-------------|
-| "All Products" | 4752        |
-| "Lobster"      | 2515        |
-| "Crab"         | 2513        |
+| All Products   | 4752        |
+| Lobster        | 2515        |
+| Crab           | 2513        |
 
 The "All Products" page has the highest number of views, indicating it is the most frequently visited page. "Lobster" and "Crab" are the next most popular pages.
 
@@ -267,9 +267,9 @@ ORDER BY 2 DESC;
 
 | product_category | views | cart_adds |
 |------------------|-------|-----------|
-| "Shellfish"      | 6204  | 3792      |
-| "Fish"           | 4633  | 2789      |
-| "Luxury"         | 3032  | 1870      | 
+| Shellfish        | 6204  | 3792      |
+| Fish             | 4633  | 2789      |
+| Luxury           | 3032  | 1870      | 
 
 The 'Shellfish' category leads with 6,204 views and 3,792 cart adds, significantly outpacing 'Fish' and 'Luxury'.
 
@@ -299,9 +299,9 @@ SELECT t2.page_name,
 ```
 | page_name | purchases |
 |-----------|-----------|
-| "Lobster" | 754       |
-| "Oyster"  | 726       |
-| "Crab"    | 719       |
+|  Lobster  | 754       |
+|  Oyster   | 726       |
+|  Crab     | 719       |
 
 The product "Lobster" leads in purchases with 754, followed closely by "Oyster" with 726, and "Crab" at 719.
 
