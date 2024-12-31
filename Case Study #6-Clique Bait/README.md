@@ -98,6 +98,8 @@ Describes the pages on the website.
 
 </details>
 
+---
+
 ## Case Study Questions and Solutions
 
 ### A-Enterprise Relationship Diagram
